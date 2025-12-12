@@ -4,13 +4,14 @@
     {
       "name": "immichframe",
       "image": "ghcr.io/immichframe/immichframe:latest",
+      "internalPort": 9876,
+      "isMain": true,
       "environment": [
         {
           "key": "TZ",
           "value": "Europe/Berlin"
         }
       ],
-      "internalPort": 8080,
       "volumes": [
         {
           "hostPath": "${APP_DATA_DIR}/data/immichframe",
