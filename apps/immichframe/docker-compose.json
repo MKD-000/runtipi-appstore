@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "services": [
+    {
+      "name": "immichframe",
+      "image": "ghcr.io/immichframe/immichframe:latest",
+      "environment": [
+        {
+          "key": "TZ",
+          "value": "Europe/Berlin"
+        }
+      ],
+      "internalPort": 8080,
+      "volumes": [
+        {
+          "hostPath": "${APP_DATA_DIR}/data/immichframe",
+          "containerPath": "/app/Config",
+          "readOnly": false,
+          "shared": false,
+          "private": false
+        }
+      ]
+    }
+  ]
+}
