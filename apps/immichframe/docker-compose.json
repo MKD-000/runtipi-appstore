@@ -7,7 +7,7 @@
       "environment": [
         {
           "key": "TZ",
-          "value": "Europe/Berlin",
+          "value": "Europe/Berlin"
         }
       ],
       "internalPort": 8080,
@@ -17,7 +17,7 @@
           "containerPath": "/app/Config",
           "readOnly": false,
           "shared": false,
-          "private": false,
+          "private": false
         }
       ]
     }
