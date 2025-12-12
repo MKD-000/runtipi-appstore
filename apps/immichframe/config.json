@@ -1,0 +1,24 @@
+{
+  "name": "Immichframe",
+  "id": "immichframe",
+  "available": true,
+  "short_desc": "An awesome way to display your photos asa digital photo frame",
+  "author": "immichFrame",
+  "port": 9876,
+  "categories": [
+    "utilities"
+  ],
+  "description": "An awesome way to display your photos asa digital photo frame",
+  "tipi_version": 2,
+  "version": "v1.0.30.0",
+  "source": "https://github.com/immichFrame/ImmichFrame",
+  "exposable": true,
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1745082405284,
+  "updated_at": 1745674974072,
+  "dynamic_config": true,
+  "form_fields": []
+}
